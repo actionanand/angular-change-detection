@@ -8,4 +8,4 @@ bootstrapApplication(AppComponent, {
 }).catch(err => console.error(err));
 
 // remove 'zone.js' from 'polyfills' in `angular.json` file
-// then `npm uninstall zone.js`
+// then `npm uninstall zone.js` or `yarn remove zone.js`
