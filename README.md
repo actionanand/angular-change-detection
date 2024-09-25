@@ -224,3 +224,5 @@ To configure the pre-commit hook, simply add a `precommit` npm script. We want t
 
 - [GitHub Actions for Angular](https://github.com/rodrigokamada/angular-github-actions)
 - [Angular 16 - milestone release](https://github.com/actionanand/ng16-signal-milestone-release)
+- [Adieu Zone.js — Angular 18 & Zoneless Applications](https://medium.com/@coreboarder/adieu-zone-js-angular-18-zoneless-applications-b5ca4d6f727f)
+- [Angular without ZoneJS (Zoneless)](https://angular.dev/guide/experimental/zoneless)

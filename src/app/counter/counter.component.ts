@@ -1,4 +1,5 @@
-import { ChangeDetectionStrategy, Component, inject, NgZone, OnInit, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit, signal } from '@angular/core';
+// import { inject, NgZone } from '@angular/core';
 
 import { InfoMessageComponent } from '../info-message/info-message.component';
 
@@ -13,18 +14,20 @@ import { InfoMessageComponent } from '../info-message/info-message.component';
 export class CounterComponent implements OnInit {
   count = signal(0);
 
-  private zone = inject(NgZone);
+  // private zone = inject(NgZone);
 
   ngOnInit(): void {
     setTimeout(() => {
       this.count.set(0);
     }, 4000);
 
+    /*
     this.zone.runOutsideAngular(() => {
       setTimeout(() => {
         console.log('Time expired!');
       }, 5000);
     });
+    */
   }
 
   get debugOutput() {
